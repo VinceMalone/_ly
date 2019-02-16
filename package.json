@@ -1,0 +1,23 @@
+{
+  "name": "underly",
+  "version": "0.0.0",
+  "description": "Lightweight functional helpers",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "ava"
+  },
+  "author": "Vince Malone <vince.malone@namely.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/register": "^7.0.0",
+    "ava": "^1.2.1",
+    "prettier": "1.16.4"
+  },
+  "ava": {
+    "require": [
+      "@babel/register"
+    ]
+  }
+}
